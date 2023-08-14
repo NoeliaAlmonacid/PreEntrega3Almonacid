@@ -1,12 +1,204 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casa Marisa</title>
+    <!-- CSS BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- CSS PROPIO -->
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body>
-    
+
+<body class="container-fluid">
+<!-- HEADER -->
+<header class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img class="logo" src="img/logo.png" alt="Logo CasaMarisa">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto fuentes">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="html/galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="html/tienda.html">Tienda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="html/quienes-somos.html">Quienes Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="html/contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- CAROUSEL -->
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/carrusel-1.png" class="d-block w-100" alt="Imagen1">
+        </div>
+        <div class="carousel-item">
+            <img src="img/carrusel-2.png" class="d-block w-100" alt="Telas">
+        </div>
+        <div class="carousel-item">
+            <img src="img/carrusel-3.png" class="d-block w-100" alt="Dia del Niño">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+    </button>
+</div>
+
+<!-- CATALOGO -->
+<div id="productos" class="tituloProductos mt-1">
+    <h2>CATALOGO</h2>
+</div>
+
+<div class="row">
+    <div class="card col-xl-3 col-md-6 col-sm-12" style="width: 18rem">
+        <img src="img/gasa.png" class="card-img-top" alt="Gasa">
+        <div class="card text-center">
+            <h5 class="card-title">Gasa Muselina de Seda Lisa Tiza</h5>
+            <p class="card-text">
+                Descripción:Tela transparente de excelente calidad, con mucha caída.
+                Composición: 100 % Poliéster.
+                Ancho: 1.50 m.
+            </p>
+        </div>
+    </div>
+    <div class="card col-xl-3 col-md-6 col-sm-12" style="width: 18rem">
+        <img src="img/lanilla.png" class="card-img-top" alt="Gasa">
+        <div class="card text-center">
+            <h5 class="card-title">Gasa Muselina de Seda Lisa Tiza</h5>
+            <p class="card-text">
+                Descripción:Tela transparente de excelente calidad, con mucha caída.
+                Composición: 100 % Poliéster.
+                Ancho: 1.50 m.
+            </p>
+        </div>
+    </div>
+    <div class="card col-xl-3 col-md-6 col-sm-12" style="width: 18rem">
+        <img src="img/morley-2.png" class="card-img-top" alt="Gasa">
+        <div class="card text-center">
+            <h5 class="card-title">Gasa Muselina de Seda Lisa Tiza</h5>
+            <p class="card-text">
+                Descripción:Tela transparente de excelente calidad, con mucha caída.
+                Composición: 100 % Poliéster.
+                Ancho: 1.50 m.
+            </p>
+        </div>
+    </div>
+    <div class="card col-xl-3 col-md-6 col-sm-12" style="width: 18rem">
+        <img src="img/morley.png" class="card-img-top" alt="Gasa">
+        <div class="card text-center">
+            <h5 class="card-title">Gasa Muselina de Seda Lisa Tiza</h5>
+            <p class="card-text">
+                Descripción:Tela transparente de excelente calidad, con mucha caída.
+                Composición: 100 % Poliéster.
+                Ancho: 1.50 m.
+            </p>
+        </div>
+    </div>
+    <div class="card col-xl-3 col-md-6 col-sm-12" style="width: 18rem">
+        <img src="img/gasa-blanco.png" class="card-img-top" alt="Gasa">
+        <div class="card text-center">
+            <h5 class="card-title">Gasa Muselina de Seda Lisa Tiza</h5>
+            <p class="card-text">
+                Descripción:Tela transparente de excelente calidad, con mucha caída.
+                Composición: 100 % Poliéster.
+                Ancho: 1.50 m.
+            </p>
+        </div>
+    </div>
+
+    <div class="card col-xl-3 col-md-6 col-sm-12" style="width: 18rem">
+        <img src="img/acetato.png" class="card-img-top" alt="Gasa">
+        <div class="card text-center">
+            <h5 class="card-title">Gasa Muselina de Seda Lisa Tiza</h5>
+            <p class="card-text">
+                Descripción:Tela transparente de excelente calidad, con mucha caída.
+                Composición: 100 % Poliéster.
+                Ancho: 1.50 m.
+            </p>
+        </div>
+    </div>
+    <div class="card col-xl-3 col-md-6 col-sm-12" style="width: 18rem">
+        <img src="img/gasa-naranja.png" class="card-img-top" alt="Gasa">
+        <div class="card text-center">
+            <h5 class="card-title">Gasa Muselina de Seda Lisa Tiza</h5>
+            <p class="card-text">
+                Descripción:Tela transparente de excelente calidad, con mucha caída.
+                Composición: 100 % Poliéster.
+                Ancho: 1.50 m.
+            </p>
+        </div>
+    </div>
+    <div class="card col-xl-3 col-md-6 col-sm-12" style="width: 18rem">
+        <img src="img/gasa-cristal.png" class="card-img-top" alt="Gasa">
+        <div class="card text-center">
+            <h5 class="card-title">Gasa Muselina de Seda Lisa Tiza</h5>
+            <p class="card-text">
+                Descripción:Tela transparente de excelente calidad, con mucha caída.
+                Composición: 100 % Poliéster.
+                Ancho: 1.50 m.
+            </p>
+        </div>
+    </div>
+
+
+
+</div>
+
+    <!-- FOOTER -->
+    <footer class="bg-primary">
+        <div class="container d-flex align-items-center justify-content-center mt-5 p-3">
+            <div class="row">
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <a href="https://instagram.com/casa_marisa_?igshid=MzRlODBiNWFlZA==" target="_blank">
+                        <img src="img/bxl-facebook.svg" alt="Logo de Facebook">
+                    </a>
+                    <a href="https://instagram.com/casa_marisa_?igshid=MzRlODBiNWFlZA==" target="_blank">
+                        <img src="img/bxl-instagram.svg" alt="Logo de Instagram">
+                    </a>
+                </div>
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <p class="text-center text-body-secondary">&copy; 2023 Casa Marisa</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
