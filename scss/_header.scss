@@ -1,0 +1,33 @@
+.contacto-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .contacto-info {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+  }
+  
+  .contacto-formulario {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    background-color: #f7f7f7;
+  
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    input, textarea, button {
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+  }
+  
+  /* Estilos adicionales para el formulario */
+  
