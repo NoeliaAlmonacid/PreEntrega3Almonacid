@@ -8,7 +8,7 @@ header {
 }
 
 .logo {
-  width: 6rem;
+  width: 5rem;
 }
 
 .fuentes {
@@ -17,7 +17,7 @@ header {
   text-transform: uppercase;
 }
 .fuentes li a:hover {
-  background-color: #f56411;
+  background-color: rgba(245, 135, 71, 0.8980392157);
   color: #fff;
 }
 
@@ -56,6 +56,14 @@ header {
   align-items: center;
   flex-direction: column;
   padding: 20px;
+}
+.mapa-container iframe {
+  width: 80%;
+  max-width: 500px;
+  height: 300px;
+  border: 1px solid #eb8716;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /*# sourceMappingURL=estilo.css.map */
