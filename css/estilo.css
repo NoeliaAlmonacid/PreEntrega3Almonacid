@@ -1,19 +1,6 @@
-.logo {
-  width: 6rem;
-}
-
-.fuentes {
-  font-size: 1.5rem;
-  padding-left: 2rem;
-  text-transform: uppercase;
-}
-.fuentes li a:hover {
-  background-color: #f56411;
-  color: #fff;
-}
-
-header {
-  border-bottom: 1px solid #aca9a8;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 .contacto-container {
@@ -46,5 +33,22 @@ header {
 }
 
 /* Estilos adicionales para el formulario */
+header {
+  border-bottom: 1px solid #b6958a;
+}
+
+.logo {
+  width: 6rem;
+}
+
+.fuentes {
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  text-transform: uppercase;
+}
+.fuentes li a:hover {
+  background-color: #f56411;
+  color: #fff;
+}
 
 /*# sourceMappingURL=estilo.css.map */
