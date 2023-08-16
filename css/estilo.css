@@ -1,3 +1,50 @@
+.logo {
+  width: 6rem;
+}
 
+.fuentes {
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  text-transform: uppercase;
+}
+.fuentes li a:hover {
+  background-color: #f56411;
+  color: #fff;
+}
+
+header {
+  border-bottom: 1px solid #aca9a8;
+}
+
+.contacto-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contacto-info {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+.contacto-formulario {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  background-color: #f7f7f7;
+}
+.contacto-formulario form {
+  display: flex;
+  flex-direction: column;
+}
+.contacto-formulario input, .contacto-formulario textarea, .contacto-formulario button {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/* Estilos adicionales para el formulario */
 
 /*# sourceMappingURL=estilo.css.map */
