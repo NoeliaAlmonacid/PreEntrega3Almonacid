@@ -3,6 +3,24 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+header {
+  border-bottom: 1px solid #b6958a;
+}
+
+.logo {
+  width: 6rem;
+}
+
+.fuentes {
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  text-transform: uppercase;
+}
+.fuentes li a:hover {
+  background-color: #f56411;
+  color: #fff;
+}
+
 .contacto-container {
   display: flex;
   justify-content: space-between;
@@ -32,23 +50,12 @@ body {
   padding: 10px;
 }
 
-/* Estilos adicionales para el formulario */
-header {
-  border-bottom: 1px solid #b6958a;
-}
-
-.logo {
-  width: 6rem;
-}
-
-.fuentes {
-  font-size: 1.5rem;
-  padding-left: 2rem;
-  text-transform: uppercase;
-}
-.fuentes li a:hover {
-  background-color: #f56411;
-  color: #fff;
+.mapa-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=estilo.css.map */

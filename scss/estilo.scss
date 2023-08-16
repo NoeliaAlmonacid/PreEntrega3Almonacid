@@ -4,30 +4,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
-
 @import "variables";
 @import "header";
 @import "footer";
-
 @import "mapa";
-
-header {
-    border-bottom: 1px solid #b6958a;
-  }
-  
-  .logo {
-    width: 6rem;
-  }
-  
-  .fuentes {
-    font-size: 1.5rem;
-    padding-left: 2rem;
-    text-transform: uppercase;
-  
-    li a:hover {
-      background-color: #f56411;
-      color: #fff;
-    }
-  }
-
