@@ -21,6 +21,43 @@ header {
   color: #fff;
 }
 
+.tituloProductos {
+  color: #e98323;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+}
+.tituloProductos h2 {
+  font-size: 1rem;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+article img {
+  width: 100px;
+  height: 90px;
+}
+
+main {
+  margin: 20px;
+  padding: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
 .contacto-container {
   display: flex;
   justify-content: space-between;
