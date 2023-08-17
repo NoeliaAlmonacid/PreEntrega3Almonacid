@@ -48,22 +48,9 @@ header {
   margin-bottom: 20px;
 }
 
-.article {
-  padding: 1rem;
-  border-right: 1px solid #ccc;
-}
 .article img {
   width: 100px;
   height: 90px;
-}
-.article h4 {
-  margin-bottom: 10px;
-}
-.article p {
-  margin-bottom: 20px;
-}
-.article:last-child {
-  border-right: none;
 }
 
 main {
