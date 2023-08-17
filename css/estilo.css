@@ -21,7 +21,7 @@ header {
   text-transform: uppercase;
 }
 .fuentes li a:hover {
-  background-color: rgba(245, 135, 71, 0.8980392157);
+  background-color: rgb(255, 200, 127);
   color: #fff;
 }
 
