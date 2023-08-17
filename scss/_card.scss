@@ -10,10 +10,26 @@
     margin-bottom: 20px;
 }
 
-article {
+.article {
+
+    padding: 1rem;
+    border-right: 1px solid #ccc;
+
     img {
-        
+
         width: 100px;
         height: 90px;
+    }
+
+    h4 {
+        margin-bottom: 10px; // Margen inferior para el título
+    }
+
+    p {
+        margin-bottom: 20px; // Margen inferior para el párrafo
+    }
+
+    &:last-child {
+        border-right: none; // Elimina el borde derecho en el último artículo
     }
 }
