@@ -73,18 +73,6 @@ footer p {
   text-align: center;
 }
 
-footer .row .col-12 {
-  display: align-items-center;
-  justify-content: center;
-}
-footer .row .col-12 a {
-  margin-right: 20px;
-}
-footer p {
-  margin-top: 20px;
-  text-align: center;
-}
-
 .contacto-container {
   display: flex;
   justify-content: space-between;
