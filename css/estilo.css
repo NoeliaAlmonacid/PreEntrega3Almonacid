@@ -66,29 +66,36 @@ header {
 }
 
 .newsletter {
-  background-color: url("../img/nota-1.png") center/cover no-repeat;
+  background: url("../img/nota-1.png") center/cover no-repeat;
   padding: 4rem 0;
 }
-.newsletter h2 {
+.newsletter .newsletter-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+.newsletter .newsletter-content h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
-.newsletter p {
-  color: #777;
+.newsletter .newsletter-content p {
   margin-bottom: 2rem;
 }
-.newsletter .newsletter-form {
+.newsletter .newsletter-content .newsletter-form {
   display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 400px;
   margin: 0 auto;
 }
-.newsletter .newsletter-form input[type=email] {
+.newsletter .newsletter-content .newsletter-form input[type=email] {
   flex: 1;
   padding: 0.5rem;
   border: 1px solid #ddd;
   border-radius: 4px 0 0 4px;
 }
-.newsletter .newsletter-form button {
+.newsletter .newsletter-content .newsletter-form button {
   background-color: #e98323;
   color: white;
   padding: 0.5rem 1rem;
@@ -97,7 +104,7 @@ header {
   cursor: pointer;
   transition: background-color 0.3s;
 }
-.newsletter .newsletter-form button:hover {
+.newsletter .newsletter-content .newsletter-form button:hover {
   background-color: #c46900;
 }
 
