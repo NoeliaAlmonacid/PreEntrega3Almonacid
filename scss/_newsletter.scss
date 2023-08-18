@@ -1,6 +1,6 @@
 .newsletter {
     background: url('../img/nota-1.png') center/cover no-repeat;
-    padding: 6rem 0;
+    padding: 4rem 0;
     justify-content: center;
     margin: 0 auto;
 
@@ -16,7 +16,8 @@
         }
 
         p {
-            margin-bottom: 2rem;
+            margin-top: 0;
+            line-height: 20px;
         }
 
         .newsletter-form {

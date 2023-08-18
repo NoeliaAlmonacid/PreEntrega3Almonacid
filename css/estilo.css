@@ -67,7 +67,7 @@ header {
 
 .newsletter {
   background: url("../img/nota-1.png") center/cover no-repeat;
-  padding: 6rem 0;
+  padding: 4rem 0;
   justify-content: center;
   margin: 0 auto;
 }
@@ -82,7 +82,8 @@ header {
   margin-bottom: 1rem;
 }
 .newsletter .newsletter-content p {
-  margin-bottom: 2rem;
+  margin-top: 0;
+  line-height: 20px;
 }
 .newsletter .newsletter-content .newsletter-form {
   display: flex;
