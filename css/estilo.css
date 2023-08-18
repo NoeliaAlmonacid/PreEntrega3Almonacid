@@ -66,6 +66,42 @@ main {
   text-align: center;
 }
 
+.newsletter {
+  background-color: #f9f9f9;
+  padding: 4rem 0;
+}
+.newsletter h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.newsletter p {
+  color: #777;
+  margin-bottom: 2rem;
+}
+.newsletter .newsletter-form {
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.newsletter .newsletter-form input[type=email] {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+}
+.newsletter .newsletter-form button {
+  background-color: #e98323;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.newsletter .newsletter-form button:hover {
+  background-color: #c46900;
+}
+
 footer {
   background: rgb(255, 200, 127);
   padding: 1em 0;
