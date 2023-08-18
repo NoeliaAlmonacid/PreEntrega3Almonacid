@@ -68,6 +68,7 @@ header {
 .newsletter {
   background: url("../img/nota-1.png") center/cover no-repeat;
   padding: 4rem 0;
+  justify-content: center;
 }
 .newsletter .newsletter-content {
   max-width: 1000px;
