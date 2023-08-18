@@ -57,17 +57,16 @@ header {
   height: 90px;
 }
 
-main {
+.galeria {
   margin: 20px;
   padding: 20px;
 }
-
-.center {
+.galeria .center {
   text-align: center;
 }
 
 .newsletter {
-  background-color: #f9f9f9;
+  background-color: url("../img/nota-1.png") center/cover no-repeat;
   padding: 4rem 0;
 }
 .newsletter h2 {
