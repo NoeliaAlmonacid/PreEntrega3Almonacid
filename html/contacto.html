@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
-<body class="container-fluid">
+<body >
     <!-- HEADER -->
     <header class="navbar navbar-expand-lg ">
         <div class="container-fluid">
@@ -57,7 +57,7 @@
         <h2 class="tituloProductos mt-1">ESTAMOS AQUÍ</h2>
     </main>
 
-    <section class="contacto-container flex-md-column">
+    <section class="contacto-container">
         <div class="contacto-info animate__animated animate__fadeInUp ">
             <h4>Acercate a conocer Nuestro Local</h4>
             <p>Dirección: San Martin 2040 - Belen,Catamarca</p>
@@ -78,26 +78,26 @@
                 <div class="col-md-6">
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mara">
+                        <input type="email" class="form-control" id="exampleFormControlInput1"  placeholder="Mara" required>
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Telefono</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="3834227365">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="3834227365" required>
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Email </label>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="noe_a@hotmail.com">
+                            placeholder="noe_a@hotmail.com" required>
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1"
-                            rows="3">Escribe tu consulta</textarea>
+                            rows="3" required>Escribe tu consulta</textarea>
                     </div>
-                    <div class="text-center">
-                        <button type="button" class="btn-1" disabled>Enviar</button>
-                        <button type="button" class="btn-2" disabled>Cancelar</button>
-                    </div>
+                    <div class="d-grid gap-2 d-md-block">
+                        <button  href="contacto.html" class="btn btn-primary bt-1 " type="button">Enviar</button>
+                        <button  href="contacto.html" class="btn btn-primary bt-2" type="button">Cancelar</button>
+                      </div>
                 </div>
             </form>
         </div>

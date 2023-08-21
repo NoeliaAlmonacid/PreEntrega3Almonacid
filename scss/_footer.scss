@@ -1,5 +1,7 @@
+@import"variables";
+
 footer {
-  background: rgb(255, 200, 127);
+  background:$color-fondo-footer ;
   padding: 1em 0;
   text-align: center;
   margin-top: auto;

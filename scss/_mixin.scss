@@ -1,0 +1,18 @@
+@mixin boton($bgcolor,$bcolor ,$bordes, $ancho, $color) {
+    background-color: $bgcolor;
+    border-color:$bcolor;
+    border-radius: $bordes;
+    width: $ancho;
+    color: $color;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.bt-1 {
+    @include boton (#DAF7A6, #BEE37E,15px, 100px, black);
+}
+
+.bt-2 {
+    @include boton (#A7EACB,#88ACE8 ,15px, 110px,black);
+}

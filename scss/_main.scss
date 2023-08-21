@@ -13,7 +13,8 @@
 
 .quienesSomos {
     font-family: $fuente-principal;
-    max-width: 1200px; 
+    max-width: 1200 px;
+    margin: 0 auto;
 
     h2 {
         font-size: 2rem;
@@ -28,7 +29,7 @@
     }
 
     img {
-        max-width: 100%;
+        max-width: 80%;
         border-radius: 4px;
         border: 1px solid #8bf0b5d8;
     }

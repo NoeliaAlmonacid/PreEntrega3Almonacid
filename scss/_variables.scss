@@ -2,16 +2,4 @@
 
 $fuente-principal: 'Poppins', sans-serif;
 
-body {
-
-    font-family: $fuente-principal;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-
-  .container {
-    padding: 0; 
-  }
+$color-fondo-footer: rgb(255, 200, 127);
