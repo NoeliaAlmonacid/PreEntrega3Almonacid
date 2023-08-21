@@ -1,12 +1,22 @@
 .tituloProductos {
-  background-color:  #fcad63;  
-  color:white;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 1rem;
-  
-    h2 {
-      font-size: 1rem;
-    }
+  background-color: #fcad63;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+
+  h2 {
+    font-size: 1rem;
   }
+}
+
+.tituloPrincipal {
+  font-weight: bold;
+  font-size: 3rem;
+  background-color: #fcad63;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 3rem;
+}
