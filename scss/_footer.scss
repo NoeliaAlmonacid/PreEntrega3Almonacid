@@ -21,18 +21,22 @@ footer {
   flex: 1;
   padding: 20px;
   margin: 10px;
+  p{
+    text-align: center;
+  }
 }
 
 .contacto-formulario {
   flex: 1;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #f18a35;
   margin: 10px;
-  background-color: #f7f7f7;
+  
 
   form {
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
 
   input,
@@ -40,5 +44,6 @@ footer {
   button {
     margin-bottom: 10px;
     padding: 10px;
+    text-align: center;
   }
 }
