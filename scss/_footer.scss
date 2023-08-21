@@ -21,7 +21,7 @@ ul {
 }
 
 .footer {
-  background-color: rgba(204, 148, 79, 0.329);
+  background-color: $color-fondo-footer;
   padding: 40px 0;
 }
 
@@ -35,7 +35,6 @@ ul {
     text-transform: capitalize;
     margin-bottom: 35px;
     font-weight: 500;
-    border-bottom: 2px solid #e91e63;
     display: inline-block;
     position: relative;
 
@@ -58,7 +57,7 @@ ul {
     a {
       font-size: 16px;
       text-transform: capitalize;
-      color: #b96161;
+      color: hwb(0 100% 0% / 0.961);
       text-decoration: none;
       font-weight: 300;
       color: #0c0c0c;
@@ -76,7 +75,7 @@ ul {
     display: inline-block;
     height: 40px;
     width: 40px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(240, 233, 233, 0.945);
     margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
@@ -86,8 +85,12 @@ ul {
 
     &:hover {
       color: #24262b;
-      background-color: #ffffff;
+      background-color: #D57321;
     }
+  }
+
+  .minuscula {
+    text-transform: lowercase;
   }
 
 
