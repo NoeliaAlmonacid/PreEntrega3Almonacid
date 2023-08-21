@@ -1,5 +1,36 @@
-.main{
+.main {
     max-width: 1200 px;
     margin: 0 auto;
+
+    h2 {
+        text-align: center;
+        background-color: #fcad63;
+        color: white;
+
+
+    }
 }
-  
+
+.quienesSomos {
+    font-family: $fuente-principal;
+    max-width: 1200px; 
+
+    h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    p {
+        margin-bottom: 1rem;
+    }
+
+    img {
+        max-width: 100%;
+        border-radius: 4px;
+        border: 1px solid #8bf0b5d8;
+    }
+
+}

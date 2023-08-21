@@ -82,6 +82,31 @@ header {
   max-width: 1200 px;
   margin: 0 auto;
 }
+.main h2 {
+  text-align: center;
+  background-color: #fcad63;
+  color: white;
+}
+
+.quienesSomos {
+  font-family: "Poppins", sans-serif;
+  max-width: 1200px;
+}
+.quienesSomos h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.quienesSomos p {
+  margin-bottom: 1rem;
+}
+.quienesSomos img {
+  max-width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgba(139, 240, 181, 0.8470588235);
+}
 
 .newsletter {
   background-color: burlywood;
@@ -149,6 +174,9 @@ footer p {
   padding: 20px;
   margin: 10px;
 }
+.contacto-info h4 {
+  text-align: center;
+}
 .contacto-info p {
   text-align: center;
 }
@@ -156,13 +184,25 @@ footer p {
 .contacto-formulario {
   flex: 1;
   padding: 20px;
-  border: 1px solid #f18a35;
   margin: 10px;
 }
 .contacto-formulario form {
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
+}
+.contacto-formulario h4 {
+  text-align: center;
+}
+.contacto-formulario p {
+  text-align: center;
+}
+.contacto-formulario .mb-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
 }
 .contacto-formulario input,
 .contacto-formulario textarea,
