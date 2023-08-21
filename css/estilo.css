@@ -68,6 +68,11 @@ header {
   text-align: center;
 }
 
+main {
+  max-width: 1200 px;
+  margin: 0 auto;
+}
+
 .newsletter {
   background-color: burlywood;
   padding: 4rem 0;
