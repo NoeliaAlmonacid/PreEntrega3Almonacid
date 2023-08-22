@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 .bt-1 {
   background-color: #DAF7A6;
   border-color: #BEE37E;
@@ -134,22 +135,26 @@ header {
 }
 
 .newsletter {
-  background-color: burlywood;
+  background: url("../img/nota-1.png") center/cover no-repeat;
   padding: 4rem 0;
 }
 .newsletter .newsletter-content {
   max-width: 1000px;
   margin: 0 auto;
-  text-align: center;
   color: white;
 }
 .newsletter .newsletter-content h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  text-align: center;
+  color: rgb(29, 29, 110);
+  font-size: 3rem;
 }
 .newsletter .newsletter-content p {
   margin-top: 0;
   line-height: 20px;
+  text-align: center;
+  color: rgb(29, 29, 110);
 }
 .newsletter .newsletter-content .newsletter-form {
   display: flex;
@@ -164,7 +169,8 @@ header {
   border: 1px solid #ddd;
   border-radius: 4px 0 0 4px;
 }
-.newsletter .newsletter-content .newsletter-form boton {
+
+.boton {
   background-color: #e98323;
   color: white;
   padding: 0.5rem 1rem;
@@ -173,7 +179,7 @@ header {
   cursor: pointer;
   transition: background-color 0.3s;
 }
-.newsletter .newsletter-content .newsletter-form boton:hover {
+.boton:hover {
   background-color: #c46900;
 }
 
@@ -198,7 +204,7 @@ ul {
 }
 
 .footer {
-  background-color: rgba(235, 123, 58, 0.932);
+  background-color: rgb(255, 200, 127);
   padding: 40px 0;
 }
 
