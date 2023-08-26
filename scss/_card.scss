@@ -27,6 +27,19 @@
     .center {
         text-align: center;
     }
-
-
 }
+
+@media (max-width: 767px) {
+    /* Cambiar a disposición vertical en pantallas pequeñas */
+    .servicios {
+      flex-direction: column;
+    }
+  
+    /* Alinear los h4 en una misma fila */
+    .article h4 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 80px; 
+    }
+  }
