@@ -148,6 +148,7 @@ header {
 }
 .newsletter .newsletter-content .newsletter-form {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   max-width: 400px;
@@ -158,6 +159,7 @@ header {
   padding: 0.5rem;
   border: 1px solid #ddd;
   border-radius: 4px 0 0 4px;
+  margin-bottom: 1rem;
 }
 
 .boton {
