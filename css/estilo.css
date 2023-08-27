@@ -33,8 +33,7 @@ body {
 header {
   border-bottom: 1px solid #d3d0d0;
 }
-
-.logo {
+header .logo {
   width: 5rem;
 }
 
@@ -68,7 +67,14 @@ header {
 }
 
 .tituloSec {
-  background-color: rgba(142, 228, 235, 0.5333333333);
+  color: #e98323;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid rgba(221, 213, 206, 0.7450980392);
 }
 
 /*separador en Inicio*/
