@@ -66,8 +66,7 @@ header {
 .tituloPrincipal {
   font-weight: bold;
   font-size: 2rem;
-  background-color: #fcad63;
-  color: white;
+  color: #fcad63;
   text-align: center;
   text-transform: uppercase;
   padding: 2rem;
@@ -190,12 +189,6 @@ header {
 }
 .boton:hover {
   background-color: #c46900;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .container {
