@@ -23,23 +23,23 @@
     margin: 20px;
     padding: 20px;
 
-
     .center {
         text-align: center;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) and (max-width: 1023px)  {
+
     /* Cambiar a disposición vertical en pantallas pequeñas */
     .servicios {
-      flex-direction: column;
+        flex-direction: column;
     }
-  
+
     /* Alinear los h4 en una misma fila */
     .article h4 {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 80px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 80px;
     }
-  }
+}
