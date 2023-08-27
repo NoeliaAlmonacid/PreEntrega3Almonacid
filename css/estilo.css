@@ -72,6 +72,20 @@ header {
   font-size: 2rem;
 }
 
+/*separador en Inicio*/
+.separador {
+  width: auto;
+  height: 1rem;
+  background-color: rgba(218, 212, 212, 0.7058823529);
+  margin-bottom: 1rem;
+}
+.separador .article {
+  margin-bottom: 2rem;
+}
+.separador .article img {
+  margin-bottom: 1rem;
+}
+
 .central {
   display: flex;
   justify-content: center;
