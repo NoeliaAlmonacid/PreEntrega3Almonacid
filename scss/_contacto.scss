@@ -56,3 +56,32 @@
     text-align: center;
   }
 }
+
+
+.quienesSomos {
+  font-family: $fuente-principal;
+  max-width: 1200 px;
+  margin: 0 auto;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #8bf0b5d8; /* Color de fondo para el título h2 */
+  }
+
+  p {
+    margin-bottom: 1rem;
+
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+    border-radius: 4px;
+    border: 1px solid #e79b36d8;
+  }
+
+}

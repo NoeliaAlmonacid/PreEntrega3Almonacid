@@ -1,3 +1,5 @@
+@import"variables";
+
 .titulosSecundarios {
   background-color: #8ee4eb88;
   color: rgb(61, 86, 155);
@@ -5,11 +7,8 @@
   text-transform: uppercase;
   font-weight: bold;
   padding: 2rem;
-  
+  font-size: 1rem;
 
-  h2 {
-    font-size: 1rem;
-  }
 }
 
 .tituloPrincipal {
@@ -19,4 +18,9 @@
   text-transform: uppercase;
   padding: 2rem;
   font-size: 2rem;
+}
+
+.tituloSec {
+  background-color: #8ee4eb88;
+
 }

@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 .bt-1 {
   background-color: #eba447;
   border-color: #db8727;
@@ -27,10 +28,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-}
-
-.container {
-  padding: 0;
 }
 
 header {
@@ -58,8 +55,6 @@ header {
   text-transform: uppercase;
   font-weight: bold;
   padding: 2rem;
-}
-.titulosSecundarios h2 {
   font-size: 1rem;
 }
 
@@ -70,6 +65,10 @@ header {
   text-transform: uppercase;
   padding: 2rem;
   font-size: 2rem;
+}
+
+.tituloSec {
+  background-color: rgba(142, 228, 235, 0.5333333333);
 }
 
 /*separador en Inicio*/
@@ -125,37 +124,6 @@ header {
     min-height: 80px;
   }
 }
-.main {
-  max-width: 1200 px;
-  margin: 0 auto;
-}
-.main h2 {
-  text-align: center;
-  background-color: #fcad63;
-  color: white;
-}
-
-.quienesSomos {
-  font-family: "Poppins", sans-serif;
-  max-width: 1200 px;
-  margin: 0 auto;
-}
-.quienesSomos h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-.quienesSomos p {
-  margin-bottom: 1rem;
-}
-.quienesSomos img {
-  max-width: 80%;
-  border-radius: 4px;
-  border: 1px solid rgba(139, 240, 181, 0.8470588235);
-}
-
 .newsletter {
   background: url("../img/nota-1.png") center/cover no-repeat;
   padding: 4rem 0;
@@ -252,6 +220,29 @@ header {
   margin-bottom: 10px;
   padding: 10px;
   text-align: center;
+}
+
+.quienesSomos {
+  font-family: "Poppins", sans-serif;
+  max-width: 1200 px;
+  margin: 0 auto;
+  text-align: center;
+}
+.quienesSomos h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: rgba(139, 240, 181, 0.8470588235); /* Color de fondo para el título h2 */
+}
+.quienesSomos p {
+  margin-bottom: 1rem;
+}
+.quienesSomos img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem;
+  border-radius: 4px;
+  border: 1px solid rgba(231, 155, 54, 0.8470588235);
 }
 
 .mapa-container {
