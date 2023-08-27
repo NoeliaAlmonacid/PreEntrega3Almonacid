@@ -34,7 +34,7 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #b6958a;
+  border-bottom: 1px solid #d3d0d0;
 }
 
 .logo {
@@ -51,25 +51,25 @@ header {
   color: #fff;
 }
 
-.tituloProductos {
-  background-color: #fcad63;
-  color: white;
+.titulosSecundarios {
+  background-color: rgba(142, 228, 235, 0.5333333333);
+  color: rgb(61, 86, 155);
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 1rem;
+  padding: 2rem;
 }
-.tituloProductos h2 {
+.titulosSecundarios h2 {
   font-size: 1rem;
 }
 
 .tituloPrincipal {
   font-weight: bold;
-  font-size: 2rem;
-  color: #fcad63;
+  color: #0f0f0f;
   text-align: center;
   text-transform: uppercase;
   padding: 2rem;
+  font-size: 2rem;
 }
 
 .central {
