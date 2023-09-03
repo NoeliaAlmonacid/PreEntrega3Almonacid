@@ -26,8 +26,12 @@
   text-transform: uppercase;
 }
 
-body {
+* {
   font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(252, 241, 225);
 }
 
 header {
@@ -67,7 +71,7 @@ header .logo {
 }
 
 .tituloSec {
-  color: #e98323;
+  color: #302c28;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -130,6 +134,10 @@ header .logo {
     min-height: 80px;
   }
 }
+.titulo {
+  text-align: center;
+}
+
 .newsletter {
   background: url("../img/nota-1.png") center/cover no-repeat;
   padding: 4rem 0;
@@ -222,6 +230,11 @@ header .logo {
   align-items: center;
   margin-bottom: 10px;
 }
+.contacto-formulario .mb-3 input,
+.contacto-formulario .mb-3 textarea,
+.contacto-formulario .mb-3 button {
+  width: 100%;
+}
 .contacto-formulario input,
 .contacto-formulario textarea,
 .contacto-formulario button {
@@ -239,7 +252,6 @@ header .logo {
 .quienesSomos h2 {
   font-size: 2rem;
   font-weight: bold;
-  background-color: rgba(139, 240, 181, 0.8470588235); /* Color de fondo para el título h2 */
 }
 .quienesSomos p {
   margin-bottom: 1rem;
@@ -250,7 +262,6 @@ header .logo {
   display: block;
   margin: 0 auto 1rem;
   border-radius: 4px;
-  border: 1px solid rgba(231, 155, 54, 0.8470588235);
 }
 
 .mapa-container {
