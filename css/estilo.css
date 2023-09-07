@@ -26,6 +26,17 @@
   text-transform: uppercase;
 }
 
+.bt-3 {
+  background-color: blue;
+  border-color: blue;
+  border-radius: 17px;
+  width: 110px;
+  color: black;
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
 * {
   font-family: "Poppins", sans-serif;
 }

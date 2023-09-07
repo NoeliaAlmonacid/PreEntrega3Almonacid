@@ -16,3 +16,7 @@
 .bt-2 {
     @include boton (#345d83,#88ACE8 ,15px, 110px,black);
 }
+
+.bt-3{
+    @include boton(blue, blue, 17px,110px,black)
+}
