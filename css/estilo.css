@@ -200,6 +200,22 @@ header .logo {
   background-color: #c46900;
 }
 
+@media (max-width: 768px) { /* Cambia el ancho máximo según sea necesario */
+  .newsletter-form {
+    max-width: 100%; /* Cambia a 100% para que se adapte al ancho de la pantalla */
+  }
+  input[type=email] {
+    width: 100%; /* Cambia a 100% para que ocupe todo el ancho disponible */
+    max-width: none; /* Elimina el ancho máximo */
+    margin-right: 0; /* Elimina el margen derecho para ajustar al borde */
+    border-radius: 4px; /* Aplica el borde redondeado a todos los lados */
+  }
+  .boton {
+    width: 100%; /* Cambia a 100% para que ocupe todo el ancho disponible */
+    max-width: none; /* Elimina el ancho máximo */
+    border-radius: 4px; /* Aplica el borde redondeado a todos los lados */
+  }
+}
 .contacto-container {
   display: flex;
   justify-content: space-between;
