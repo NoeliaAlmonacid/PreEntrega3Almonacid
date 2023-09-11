@@ -1,0 +1,42 @@
+footer {
+    padding: 20px;
+    background-color: #f5f5f5;
+  
+    .footer__content-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      a {
+        margin: 0 10px;
+      }
+    }
+  
+    p {
+      text-align: center;
+    }
+  }
+
+  .footerRedes{
+    color: rgb(189, 198, 206);
+  }
+  
+
+  @media (max-width: 768px) {
+    .footer__content-icons {
+      flex-direction: column; // Coloca los elementos uno debajo del otro
+      align-items: center; // Centra los elementos verticalmente
+    }
+  }
+  
+
+  @media (max-width: 576px) {
+    .footer__content-icons {
+      flex-direction: column; // Coloca los elementos uno debajo del otro
+      align-items: center; // Centra los elementos verticalmente
+      a {
+        margin: 10px 0; // Espacio entre los íconos y debajo de cada ícono
+      }
+    }
+  }
+  
