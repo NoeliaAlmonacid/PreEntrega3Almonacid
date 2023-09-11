@@ -334,11 +334,11 @@ footer p {
     align-items: center;
   }
   ul.nav {
-    flex-direction: column; /* Cambia la dirección de la lista a columna */
-    text-align: center; /* Centra el texto en la lista */
+    flex-direction: column;
+    text-align: center;
   }
   ul.nav li {
-    margin: 10px 0; /* Espacio entre elementos de la lista */
+    margin: 10px 0;
   }
 }
 @media (max-width: 576px) {
@@ -350,11 +350,11 @@ footer p {
     margin: 10px 0;
   }
   ul.nav {
-    flex-direction: column; /* Cambia la dirección de la lista a columna */
-    text-align: center; /* Centra el texto en la lista */
+    flex-direction: column;
+    text-align: center;
   }
   ul.nav li {
-    margin: 10px 0; /* Espacio entre elementos de la lista */
+    margin: 10px 0;
   }
 }
 
